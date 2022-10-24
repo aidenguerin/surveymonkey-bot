@@ -21,3 +21,17 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 # Start driver
 driver.get('URL')
+
+"""
+
+
+
+
+ADD SOME COOKING HERE
+
+
+
+"""
+
+# Driver quit
+driver.quit()
